@@ -129,6 +129,33 @@ body{
     height: 200px;
 }
 
+/*searchbar container*/
+.searchbar__container{
+    margin-top: 60px;
+}
+
+.searchbar__heading{
+    font-size: 25px;
+    color: #1d3557;
+    margin: 10px 0px;
+    text-align: justify;
+}
+.searchbar{
+    padding: 8px;
+    outline-color: lightcoral;
+}
+.searchbar__element{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.submit__button{
+    width: 100px;
+    padding: 9px;
+}
+
+
+
 @media (min-width: 768px){
     .navbar{
         justify-content: space-between;
@@ -191,6 +218,22 @@ body{
 .restaurants__flex{
     width: 100%;
 }
+.searchbar__heading{
+    padding-left: 135px;
+}
+.searchbar{
+    width: 300px;
+}
+.submit__button{
+    width: 170px;
+    padding: 8px;
+}
+.searchbar__element{
+    display: flex;
+    justify-content: center;
+  
+}
+
 }
 
 
@@ -212,6 +255,9 @@ body{
 }
 .restaurants__container{
     margin-top:30px ;
+}
+.searchbar__heading{
+    padding-left: 370px;
 }
 }
 @media (min-width:1400px){
