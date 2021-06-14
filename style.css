@@ -8,7 +8,7 @@
 /*Global*/
 body{
     font-family: "Merriweather",sans-serif;
-    background-color: #ebf2ff;
+    background-color: #e5eaf1;
     overflow-x: hidden;
 }
 
@@ -35,6 +35,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
 }
 .navbar__brand{
     width: 100px;
@@ -111,6 +112,38 @@ body{
         justify-content: space-between;
         gap: 8px;
     }
+    .explore__menu__lists{
+        margin-top: 30px;
+        display: flex;
+        gap: 10px;
+    }
+    #pizza__card{
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+    
+    .explore__menu__container{
+        position: relative;
+    }
+    .explore__menu__gradient__bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+
+        background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+        );
+        z-index: -3;
+        transform: skewY(-5deg);
+    }
+.explore__menu__text{
+    font-size: 30px;
+}
 }
 
 
@@ -123,9 +156,17 @@ body{
      .container{
          max-width: 900px;
      }
+     .explore__menu__lists{
+         gap: 20px;
+         padding: 0 20px;
+     }
+.explore__menu__text{
+    font-size: 35px;
+}
+
 }
 @media (min-width:1400px){
-  .container{
-      max-width: 1250px;
-  }
+    .container{
+        max-width: 1250px;
+    }
 }
