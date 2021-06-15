@@ -155,6 +155,33 @@ body{
 }
 
 
+/*footer*/
+.footer{
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 120%;
+background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+    );
+    border-radius: 30px 30px 0 0;
+}
+.footer__heading__name{
+    font-size: 40px;
+    color: #e5eaf1;
+    text-align: center;
+}
+.footer__item__list{
+    list-style: none;
+    text-align: center;
+    color: #e5eaf1;
+    size: 25px;
+
+}
 
 @media (min-width: 768px){
     .navbar{
